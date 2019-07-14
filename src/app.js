@@ -3,6 +3,8 @@ const morgan = require('morgan')
 const cors = require('cors')
 const helmet = require('helmet')
 const { NODE_ENV } = require('./config')
+const validateBearerToken = require('./validation')
+const bookmarkRouter = require('./bookmark-router')
 
 const app = express()
 
@@ -11,6 +13,9 @@ app.use(morgan((NODE_ENV === 'production') ? 'tiny' : 'common', {
 }))
 app.use(cors())
 app.use(helmet())
+app.use(validateBearerToken)
+
+app.use(bookmarkRouter)
 
 app.get('/', (req, res) => {
   res.send('Hello, world!')

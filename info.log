@@ -1,0 +1,14 @@
+{"message":"Bookmark with id 12c8caa7-963d-4c04-a494-5d2153ceb979 created","level":"info"}
+{"message":"Bookmark with id ece45304-db3b-4c1a-856e-93c9a8732cb4 created","level":"info"}
+{"message":"Sending valid bookmark","level":"info"}
+{"message":"1 is invalid","level":"error"}
+{"message":"3280042c-5800-419e-852b-d0cd46e435c1 is invalid","level":"error"}
+{"message":"3280042c-5800-419e-852b-d0cd46e435c1 is invalid","level":"error"}
+{"message":"46dd9f33-979c-47b5-a506-4e71822de079 is invalid","level":"error"}
+{"message":"46dd9f33-979c-47b5-a506-4e71822de079 is invalid","level":"error"}
+{"message":"46dd9f33-979c-47b5-a506-4e71822de079 is invalid","level":"error"}
+{"message":"Sending valid bookmark","level":"info"}
+{"message":"deleting bookmark 1","level":"info"}
+{"message":"deleting bookmark 1","level":"info"}
+{"message":"deleting bookmark 1","level":"info"}
+{"message":"deleting bookmark 1","level":"info"}
