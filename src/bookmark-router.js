@@ -41,7 +41,7 @@ bookmarkRouter
         console.log(store.bookmarks)
         if (!bookmark) {
             logger.error(`${id} is invalid`)
-            return res.status(400).send(`${id} is invalid`)
+            return res.status(404).send(`${id} not found`)
         }
         logger.info(`Sending valid bookmark`)
         res.json(bookmark)
